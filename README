@@ -8,6 +8,12 @@ have a crazy api
 http://nullprogram.com/blog/2014/12/09/
 
 
+and dos-compatible libraries here
+
+https://github.com/Zirias/clang-libdos/
+https://github.com/jbruchon/elks
+
+
 the tiny language embedded in it can
 use mpc as the parser library
 
