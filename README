@@ -7,3 +7,15 @@ have a crazy api
 
 http://nullprogram.com/blog/2014/12/09/
 
+
+the tiny language embedded in it can
+use mpc as the parser library
+
+https://github.com/orangeduck/mpc
+
+
+here is also a language tutorial
+and c reference
+
+http://www.buildyourownlisp.com/
+http://en.cppreference.com/w/c
