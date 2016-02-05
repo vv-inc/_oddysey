@@ -1,0 +1,65 @@
+it would be as simple as possible.
+thinking a minimal language with only
+two types - decimal and "signal",
+which would be like a string.
+
+
+
+
+commas are considered whitespace
+
+
+breakpoint (at the beginning of a line)
+!
+
+
+"watch" (placed before an expression, would be overlay the value during operation)
+@
+
+
+comment (everything afterward would be ignored)
+;
+
+
+simple math operations
+
+ADD
+SUB
+MUL
+NEG
+
+
+variable referencing
+
+:= NAME EXPR
+NAME
+
+
+comparison
+
+EQ
+NQ
+LT
+GT
+
+
+null
+
+NIL
+
+
+conditional (basically a switch)
+
+(COND
+  EXPR EXPR
+  EXPR (EXPR
+        EXPR))
+
+
+signals (signals are basically string literals delimited by *)
+
+*SIGNAL CONTENTS*
+
+SEND expr expr
+SEND *ASTRO 1*, *ERROR*, *OUT OF RANGE*
+SEND *CTRL UNIT*, 22, 33, 51
