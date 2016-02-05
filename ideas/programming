@@ -99,7 +99,7 @@ loops (either loops or gotos)
   STOP)
   
 00 EXPR
-10 (COND (EQ FUEL 0 (jmp 30)))
+10 COND (EQ FUEL 0 (jmp 30))
 20 JMP 00
 30 SEND *SPKR1* *NO FUEL*
 
