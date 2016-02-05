@@ -18,7 +18,8 @@ since it's a video game, we can make our
 own basic "ide", which could highlight
 syntax errors, have a step debugger, and
 display the values of named registers
-during operation.
+during operation, inline help, and other
+things like it.
 
 we can also have a "visualization unit"
 that could be used to display images.
