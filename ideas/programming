@@ -83,6 +83,7 @@ NQ
 LT
 GT
 AND
+OR
 
 
 null
@@ -108,7 +109,11 @@ SEND *CTRL UNIT*, 22, 33, 51
 RECV *ANY*, *BIO ALERT*
 :FUEL IS RECV *TANK1*, *LEVEL*
 
-loops (either loops or gotos)
+
+loops (either loops or gotos -
+i'm using simpler constructs because
+they are easier for beginners
+despite being less powerful)
 
 (LOOP
   EXPR
@@ -132,5 +137,23 @@ really a function definition and
 reference, but it should be a secret
 feature
 
-:ADD2 IS (ADD 2 (RECV 1))
+:ADD2 IS (ADD 2 (RECV 1))  ; non-named args are numbered
 :ADD2 1
+:SEND2 IS (:SIGNAL :SIGNAL2 ->
+           :C IS 0
+           (LOOP
+            SEND :SIGNAL
+            (COND (EQ :C 2 (STOP)))
+           ))
+
+
+
+depending on the "box" or "computer"
+there would be different available
+segments, however the displays would
+probably have:
+
+3 tabs:
+RUN (editor/debugger)
+SIMULATE (this would generate automated unit tests based on static analysis of the code)
+MANUAL (this would tell you how things work more in-depth)
