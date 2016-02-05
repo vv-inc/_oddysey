@@ -42,6 +42,9 @@ comment (everything afterward would be ignored)
 print to console
 DBUG
 
+parens would be used to continue between lines
+or nest statements
+
 
 simple math operations
 
