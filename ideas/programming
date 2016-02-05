@@ -63,3 +63,10 @@ signals (signals are basically string literals delimited by *)
 SEND expr expr
 SEND *ASTRO 1*, *ERROR*, *OUT OF RANGE*
 SEND *CTRL UNIT*, 22, 33, 51
+RECV *ANY*, *BIO ALERT*
+
+
+
+that should be the entire language,
+with nearly any combination of those
+things possible
