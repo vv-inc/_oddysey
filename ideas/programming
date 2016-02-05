@@ -1,8 +1,27 @@
 it would be as simple as possible.
 thinking a minimal language with only
-two types - decimal and "signal",
-which would be like a string.
+three types - decimal and "signal",
+which would be like a string, and nil.
 
+other things, like lists, tables, or
+functions, would be defined by wiring
+external units together. like a
+"data store unit" for lists or tables,
+and a "logic unit" which could hold
+multiple "operation nodes", which could
+be referred to by names and would really
+be functions, or just a way of expanding
+the limited logic capacity of the main
+units.
+
+since it's a video game, we can make our
+own basic "ide", which could highlight
+syntax errors, have a step debugger, and
+display the values of named registers
+during operation.
+
+we can also have a "visualization unit"
+that could be used to display images.
 
 
 
