@@ -14,6 +14,18 @@ be functions, or just a way of expanding
 the limited logic capacity of the main
 units.
 
+it could also be interesting for alien
+ships to use different connectors, and
+an "alien language" inside the ship,
+which would be english but with different
+alphabet. code within the ship would also
+use the foreign language in for instance
+the comments of code, but the code itself
+would be "in english". however, we could
+create a different syntax (for the same
+code language) to make the alien ship
+feel really alien.
+
 since it's a video game, we can make our
 own basic "ide", which could highlight
 syntax errors, have a step debugger, and
