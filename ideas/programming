@@ -20,6 +20,9 @@ breakpoint (at the beginning of a line)
 comment (everything afterward would be ignored)
 ;
 
+print to console
+DBUG
+
 
 simple math operations
 
@@ -64,6 +67,19 @@ SEND expr expr
 SEND *ASTRO 1*, *ERROR*, *OUT OF RANGE*
 SEND *CTRL UNIT*, 22, 33, 51
 RECV *ANY*, *BIO ALERT*
+:= FUEL RECV *TANK1*, *LEVEL*
+
+loops (either loops or gotos)
+
+(LOOP
+  EXPR
+  EXPR
+  STOP)
+  
+00 EXPR
+10 (COND (EQ FUEL 0 (jmp 30)))
+20 JMP 00
+30 SEND *SPKR1* *NO FUEL*
 
 
 
