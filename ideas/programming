@@ -37,8 +37,34 @@ we can also have a "visualization unit"
 that could be used to display images.
 
 
-some of the things i mean are here
+the idea wants to be that we make coding
+as easy as possible - that means
+* a tiny language that wont overwhelm anyone
+* avoid complex types and concepts
+* interface and debugging that really
+  bring out the concepts vs making you
+  look for them
+  
+these two things really demonstrate
+the idea
 http://worrydream.com/LearnableProgramming/
+http://lighttable.com/
+
+the nice thing is that the language
+will be so tiny that accomplishing this
+wont be difficult
+
+
+some other articles in the vein of
+making things as easy as possible
+
+http://designmodo.com/microcopy/
+https://medium.com/life-tips/designing-user-interfaces-for-your-mother-dd45ec50f7b0
+http://patternry.com/p=undo/
+https://github.com/yuki24/did_you_mean
+http://designmodo.com/ux-doors-diagram/
+
+
 
 
 commas are considered whitespace
