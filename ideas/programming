@@ -108,3 +108,12 @@ loops (either loops or gotos)
 that should be the entire language,
 with nearly any combination of those
 things possible
+
+and actually, although i won't ever
+tell anyone, this below statement is
+really a function definition and
+reference, but it should be a secret
+feature
+
+:= ADD2 (ADD 2 (RECV 1))
+ADD2 1
