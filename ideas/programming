@@ -56,7 +56,7 @@ NEG
 
 variable referencing
 
-:= NAME EXPR
+NAME :`= EXPR
 NAME
 
 
@@ -89,7 +89,7 @@ SEND expr expr
 SEND *ASTRO 1*, *ERROR*, *OUT OF RANGE*
 SEND *CTRL UNIT*, 22, 33, 51
 RECV *ANY*, *BIO ALERT*
-:= FUEL RECV *TANK1*, *LEVEL*
+FUEL := RECV *TANK1*, *LEVEL*
 
 loops (either loops or gotos)
 
@@ -115,5 +115,5 @@ really a function definition and
 reference, but it should be a secret
 feature
 
-:= ADD2 (ADD 2 (RECV 1))
+ADD2 := (ADD 2 (RECV 1))
 ADD2 1
