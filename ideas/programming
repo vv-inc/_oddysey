@@ -86,6 +86,9 @@ DBUG
 
 parens would be used to continue between lines
 or nest statements
+ADD 1
+ADD 2
+(ADD 1) (ADD 2) ; equivalent
 
 
 simple math operations
@@ -94,6 +97,8 @@ ADD
 SUB
 MUL
 NEG
+DIV
+REM
 
 
 variable referencing
@@ -169,6 +174,7 @@ feature
            :C IS 0
            (LOOP
             SEND :SIGNAL
+            :C IS ADD C 1
             (COND (EQ :C 2 (STOP)))
            ))
 
@@ -183,3 +189,5 @@ probably have:
 RUN (editor/debugger)
 SIMULATE (this would generate automated unit tests based on static analysis of the code)
 MANUAL (this would tell you how things work more in-depth)
+
+a "table" of "named registers", which would be the tables
