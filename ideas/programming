@@ -190,4 +190,4 @@ RUN (editor/debugger)
 SIMULATE (this would generate automated unit tests based on static analysis of the code)
 MANUAL (this would tell you how things work more in-depth)
 
-a "table" of "named registers", which would be the tables
+a "table" of "named registers", which would be the variables
